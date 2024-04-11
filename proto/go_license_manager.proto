@@ -1,0 +1,9 @@
+syntax = "proto3";
+package licenseManagerGrpc;
+option go_package = "license_manager/";
+
+// сервис, который описывает все методы go_license_manager
+service licenseManager {
+
+}
+

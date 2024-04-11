@@ -1,0 +1,17 @@
+{
+	"name": "backend_compass_dev_2/license_protobuf_schemes",
+	"type": "library",
+	"description": "php_license_protobuf_schemes",
+	"autoload": {
+		"psr-4": {
+			"LicenseManagerGrpc\\": ["grpc/LicenseManagerGrpc"],
+			"GPBMetadata\\": "php/GPBMetadata"
+		}
+	},
+	"repositories": [
+		{
+			"type": "vcs",
+			"url": "https://github.com/getCompassUtils/license_protobuf_schemes.git"
+		}
+	]
+}
