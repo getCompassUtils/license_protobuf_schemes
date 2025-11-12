@@ -1,0 +1,7 @@
+syntax = "proto3";
+package localLicenseGrpc;
+option go_package = "local_license/";
+
+// сервис, который описывает все методы go_local_license
+service localLicense {
+}
